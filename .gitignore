@@ -1,0 +1,28 @@
+# 密钥与本地配置 —— 绝对不要提交
+config.json
+.secret.key
+.env
+
+# 人格库 —— 含个人化设定，不随仓库分发
+# 别人 clone 后首次运行会自动生成示例人格（见 skill_manager.py）
+skills/
+
+# 个人音频素材（录音、录像、调音试听）—— 不公开
+assets/*.wav
+assets/*.mp3
+assets/*.m4a
+assets/*.mp4
+assets/_tune/
+# 但保留一份程序生成的合成占位音频，让别人 clone 下来就能跑
+!assets/reference.wav
+
+# 本地工具配置
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/

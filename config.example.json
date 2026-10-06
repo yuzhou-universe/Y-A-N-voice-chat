@@ -1,0 +1,27 @@
+{
+  "_说明": "这是配置示例。实际配置由程序读写 config.json，API Key 会自动加密（enc: 前缀）。你也可以复制本文件为 config.json 后手动填写，明文 Key 也能被正确读取。",
+
+  "qwen_api_key": "sk-你的百炼API-Key",
+  "qwen_base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "qwen_model": "qwen-plus",
+  "qwen_temperature": 0.85,
+  "qwen_max_tokens": 1024,
+  "history_turns": 12,
+
+  "tts_provider": "auto",
+  "tts_enabled": true,
+  "cosyvoice_api_key": "sk-你的DashScope-Key",
+  "cosyvoice_model": "cosyvoice-v2",
+  "cosyvoice_voice": "longxiaochun_v2",
+  "cosyvoice_reference_url": "",
+  "reference_audio": "assets/reference.wav",
+  "reference_text": "",
+  "speech_rate": 1.0,
+
+  "audio_backend": "auto",
+  "sample_rate": 22050,
+  "volume": 0.9,
+
+  "current_skill": "",
+  "theme": "light"
+}
